@@ -1,0 +1,636 @@
+   
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "DM Sans", sans-serif;
+}
+html{
+scroll-behavior: smooth;
+}
+body {
+     
+ 
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #111827;
+
+   
+    background:
+        radial-gradient(
+            circle at 65% 5%,
+            rgba(238, 205, 255, 0.75),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 90% 40%,
+            rgba(202, 232, 255, 0.8),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 60% 100%,
+            rgba(205, 240, 255, 0.75),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 100% 20%,
+            rgba(255, 218, 245, 0.55),
+            transparent 25%
+        ),
+        #ffffff;
+
+    background-attachment: fixed;
+}
+
+.navbar {
+    width: 410px;
+    height: 50px;
+    margin: 55px auto 0;
+margin-left: 350px;
+    display: flex;
+align-items: center;
+    gap: 8px;
+    background: rgba(190, 181, 181, 0.35);
+    border: 1px solid rgba(231, 224, 224, 0.65);
+    border-radius: 25px;
+    box-shadow:
+        0 8px 30px rgba(80, 70, 120, 0.12),
+        inset 0 1px 1px rgba(200, 193, 193, 0.8);
+}
+
+.navbar1{
+    display: flex;
+    align-items: center;
+    gap:20px;
+  padding: 1.1rem;
+}
+.navbar1 a{
+    text-decoration: none ;
+    color: rgb(88, 87, 87);
+   transform: 1.5s all;
+   transition-duration: 0.5s;
+}
+.navbar1 a:hover{
+    color: rgb(0, 0, 0);
+    background-color:white ;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: 1;
+}  
+
+.pro{
+     color: rgb(0, 0, 0);
+    background-color:white ;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: 1;
+}
+.logoandnavbar{
+display: flex;
+
+}
+
+.logo img{
+width: 70px;
+height: 70px;
+border-radius: 20px;
+ transition: 0.3s;
+ margin-top: 50px;
+margin-left: 56px;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+.text{
+    margin-left: 56px;
+    margin-top: 15px;
+   line-height: 25px;
+}
+.text p
+{
+    margin-top: 10px;
+    color: gray;
+font-size: 17px;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 56px;
+    display: flex;
+    gap: 1rem;
+}
+.btnblack{
+padding: 11px 13px;
+color: #ffffff;
+background-color: black;
+border-radius: 15px;
+text-decoration: none;
+margin-bottom: 50px;
+}
+
+
+.btnwhite{
+padding: 11px 13px;
+color:black;
+background-color: #e8e7e7;
+border-radius: 15px;
+text-decoration: none;
+margin-bottom: 50px;
+}
+.btnwhite  :hover{
+padding: 11px 16px;
+   
+}
+.project{
+
+ display: flex;
+ gap:2rem ;
+
+ border-radius: 30px;
+margin-left: 56px;
+margin-top: 40px;
+}
+
+.project1 img{
+width: 550px;
+height: 430px;
+}
+.display{
+justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+    font-weight: medium;
+    
+}
+.display :hover{
+    color: black;
+}
+
+
+.full{
+    display: flex;
+    gap: 1rem;
+    margin-left: 56px;
+    margin-top: 150px;
+   border-top: 1px solid #ddd;
+   height: 300px;
+}
+.foottext img{
+    margin-top: 50px;
+    width: 50px ;
+    height: 50px;
+    border-radius: 100%;
+}
+.foottext{
+    line-height: 23px;
+    font-size: 15px;
+}
+.foottext h1{
+ margin-top: 50px;
+}
+.note{
+    color: gray;
+   margin-top: 10px;
+
+}
+.card a{
+   text-decoration: none;
+   color: gray;
+
+}.card1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+   
+}
+.card{
+     margin-left: 8rem;
+margin-top: 50px;
+line-height: 30px;
+font-size: 13px;
+}
+.card :hover{
+    color :black;
+}
+.card1{
+     margin-left: 8rem;
+     margin-top: 50px;
+     line-height: 30px;
+     font-size: 13px;
+}
+.card1 :hover{
+    color:black
+}
+.card1 a{
+    color: gray;
+    text-decoration: none;
+}
+ .foottext a{
+   color: gray;
+    text-decoration:none ;
+    font-size: 12px;
+}
+.hovee:hover{
+    color:rgb(201, 193, 193)
+}
+
+/*-----page 2---------*/
+
+.word{
+    display: flex;
+     margin-left: 56px;
+     gap: 1rem;
+    flex-wrap: wrap;
+}
+.work-card img{
+   width: 380px;
+   height: 300px ;
+   border-radius: 30px;
+}
+#vid img{
+    width: 430px;
+  margin-left: 56px;
+    border-radius: 30px;
+}
+.bn{
+    display: flex;
+  gap: 1rem;
+   font-size: 14px;
+}
+.notee{
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 12px;
+    margin: 10px;
+}
+span{
+    color:gray
+}.sh{
+  margin-top: 40px;
+  font-size: 18px;
+  color: gray;
+  line-height: 25px;
+}
+#coll a{
+    color: #111827;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #e4e3e3;
+    line-height: 170px;
+}
+#coll a:hover{
+    color: white;
+    background-color: black;
+}
+
+/* ==============================
+   RESPONSIVE
+   ============================== */
+
+
+/* ---------- TABLET ---------- */
+
+@media screen and (max-width: 1100px) {
+
+    .navbar {
+        width: 380px;
+        margin-left: auto;
+        margin-right: 30px;
+    }
+
+    .logo img {
+        margin-left: 30px;
+    }
+
+    .text {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .btn {
+        margin-left: 30px;
+    }
+
+    .project {
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 20px;
+    }
+
+    .project1 {
+        width: calc(50% - 10px);
+    }
+
+    .project1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .full {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .card,
+    .card1 {
+        margin-left: 40px;
+    }
+
+    .word {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .work-card {
+        width: calc(50% - 10px);
+    }
+
+    .work-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vid {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .vid video {
+        width: 100%;
+        max-width: 430px;
+        margin-left: 0;
+    }
+}
+
+
+/* ---------- TABLET / MOBILE ---------- */
+
+@media screen and (max-width: 768px) {
+
+    .logoandnavbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .navbar {
+        width: 90%;
+        max-width: 380px;
+        margin: 25px auto 0;
+    }
+
+    .navbar1 {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar1 a {
+        font-size: 14px;
+    }
+
+    .text {
+        margin: 40px 30px 0;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-left: 30px;
+        margin-right: 30px;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .project1 {
+        width: 100%;
+    }
+
+    .project1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .full {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 40px;
+    }
+
+    .foottext {
+        width: 100%;
+    }
+
+    .card,
+    .card1 {
+        margin-left: 20px;
+    }
+
+    .word {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .work-card {
+        width: calc(50% - 10px);
+    }
+
+    .work-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vid {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .vid video {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media screen and (max-width: 480px) {
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .navbar {
+        width: calc(100% - 30px);
+        margin: 20px auto 0;
+    }
+
+    .navbar1 {
+        width: 100%;
+        gap: 2px;
+        padding: 7px;
+    }
+
+    .navbar1 a {
+        font-size: 12px;
+        padding: 8px 7px;
+    }
+
+    .navbar1 a:hover {
+        padding: 8px 7px;
+    }
+
+    .pro {
+        padding: 8px 7px;
+    }
+
+    .text {
+        margin: 35px 20px 0;
+    }
+
+    .text h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .text p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .btn {
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 10px;
+    }
+
+    .btnblack,
+    .btnwhite {
+        padding: 10px 13px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .project {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+
+    .project1 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .project1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .display {
+        font-size: 11px;
+        gap: 10px;
+    }
+
+    .full {
+        display: block;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .foottext {
+        width: 100%;
+    }
+
+    .foottext img {
+        margin-top: 30px;
+    }
+
+    .foottext h1 {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    .card,
+    .card1 {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .word {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .work-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .vid {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #vid img{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        border-radius: 20px;
+    }
+
+    .bn {
+        display: block;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .notee {
+        line-height: 25px;
+    }
+
+    .sh {
+        font-size: 16px;
+    }
+
+    #coll a {
+        display: inline-block;
+        line-height: normal;
+    }
+}
